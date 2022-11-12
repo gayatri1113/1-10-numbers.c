@@ -1,1 +1,12 @@
-# 1-10-numbers.c
+//# 1-10-numbers.c//
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    while(i<=10)
+    {
+        printf("\n%d",i);
+        i++;
+    }
+    return 0;
+}
